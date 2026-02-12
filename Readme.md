@@ -1,7 +1,9 @@
-# 🎫 Ticket Management System – Login Page
+# 🎫 Ticket Management System
 
-This login module serves as the secure entry point of the Ticket Management System. It authenticates users based on their credentials and account 
-status before granting access to the system’s ticketing features such as creating, tracking, and managing support requests.
+The Ticket Management System is a web-based application designed to streamline the process of reporting, tracking, and managing technical support requests within an organization. It allows users to create tickets for issues such as hardware, software, or network problems, while administrators can monitor, assign, and update ticket statuses efficiently.
+The system helps improve response time, maintain organized records of support requests, and provide transparency in handling reported issues.
+
+---
 
 ## 🛠 Technologies Used
 <p align="left">
@@ -50,6 +52,7 @@ This login page is part of a larger system that includes:
 
 ---
 👨‍💻 Developed for academic project use.
+
 
 
 
