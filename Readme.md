@@ -5,11 +5,10 @@ This is the Login Page for the Ticket Management System.
 ## 🛠 Technologies Used
 <p align="left">
 <img src="https://skillicons.dev/icons?i=html" width="50" height="50"/>&nbsp;
-<img src="https://skillicons.dev/icons?i=css" width="50" height="50"/>&nbsp;
+<img src="https://skillicons.dev/icons?i=tailwind" width="50" height="50"/>&nbsp;
 <img src="https://skillicons.dev/icons?i=js" width="50" height="50"/>&nbsp;
 <img src="https://skillicons.dev/icons?i=php" width="50" height="50"/>&nbsp;
 <img src="https://skillicons.dev/icons?i=mysql" width="50" height="50"/>&nbsp;
-<img src="https://skillicons.dev/icons?i=tailwind" width="50" height="50"/>&nbsp;
 </p>
 
 ## ✨ Features
@@ -50,4 +49,5 @@ This login page is part of a larger system that includes:
 
 ---
 👨‍💻 Developed for academic project use.
+
 
