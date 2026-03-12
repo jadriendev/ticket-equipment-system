@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="font.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="shortcut icon" href="https://www.arellano.edu.ph/sites/default/files/inline-images/new-au-logo.png" type="image/x-icon">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <title>Equipment Management System</title>
+</head>
+<body class="bg-[#F3F4F6]">
+    <nav class="bg-[#004ea8] shadow-lg fixed top-0 w-full z-50">
+        <div class="max-w-7xl mx-auto py-2 px-5 flex items-center justify-between">
+            <div class="flex items-center gap-2">
+                <img src="https://www.arellano.edu.ph/sites/default/files/inline-images/new-au-logo.png" alt="Arellano University" width="70">
+                <h1 class="text-2xl text-white font-semibold tracking-wide">Equipment Management System</h1>
+            </div>
+            <ul class="hidden  md:flex items-center gap-4">
+                <li class="capitalize font-semibold text-xl text-white transition transform-transition duration-300 hover:text-[#FBBF24]"><a href="#home">home</a></li>
+                <li class="capitalize font-semibold text-xl text-white transition transform-transition duration-300 hover:text-[#FBBF24]"><a href="#overview">overview</a></li>
+                <li class="capitalize font-semibold text-xl text-white transition transform-transition duration-300 hover:text-[#FBBF24]"><a href="#features">features</a></li>
+                <li class="capitalize font-semibold text-xl text-white transition transform-transition duration-300 hover:text-[#FBBF24]"><a href="#systemdemo">system demo</a></li>
+            </ul>
+            <a class="hidden md:inline-block bg-[#C0392B] text-white py-2 px-8 rounded-xl transition transform-transition duration-300 hover:bg-red-700 cursor-pointer" href="login.php">Login</a>
+        </div>
+    </nav>
+    <main class="py-10 mt-[60px]">
+        <section id="overview" class="flex items-center justify-center flex-col gap-5 p-7">
+            <h1 class="text-5xl font-bold text-[#004ea8] capitalize tracking-wide text-center">equipment management system</h1>
+            <p class="font-semibold tracking-wide text-[#111827] text-center">A centralized platform designed to manage equipments securely and efficiently.</p>
+            <iframe class="rounded-xl mt-2 aspect-video" width="790" height="515" src="https://www.youtube.com/embed/le8CsNkLV7k?si=g-IiVJ5ECHevsqW_" title="Technical Management System" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </section>
+        <section id="features" class="w-full bg-[#004ea8]">
+            <div class="max-w-7xl mx-auto px-5 py-10">
+                <h1 class="text-5xl font-bold text-white capitalize tracking-wide text-center mb-10">system features</h1>
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                    <div class="bg-[#F3F4F6] p-6 flex flex-col items-center text-center rounded-xl gap-3 transition duration-300 hover:scale-105 hover:shadow-lg">
+                        <i class="fa-solid fa-boxes-stacked text-5xl text-gray-700"></i>
+                        <h3 class="text-lg font-semibold capitalize tracking-wide">Equipment Records Management</h3>
+                        <p class="text-sm text-gray-600">Manage detailed equipment information including asset number, serial number, branch, and department.</p>
+                    </div>
+                    <div class="bg-[#F3F4F6] p-6 flex flex-col items-center text-center rounded-xl gap-3 transition duration-300 hover:scale-105 hover:shadow-lg">
+                        <i class="fa-solid fa-magnifying-glass text-5xl text-gray-700"></i>
+                        <h3 class="text-lg font-semibold capitalize tracking-wide">Advanced Equipment Search</h3>
+                        <p class="text-sm text-gray-600">Quickly search equipment using asset number, serial number, type, or department.</p>
+                    </div>
+                    <div class="bg-[#F3F4F6] p-6 flex flex-col items-center text-center rounded-xl gap-3 transition duration-300 hover:scale-105 hover:shadow-lg">
+                        <i class="fa-solid fa-circle-plus text-5xl text-gray-700"></i>
+                        <h3 class="text-lg font-semibold capitalize tracking-wide">Add New Equipment</h3>
+                        <p class="text-sm text-gray-600">Register new equipment with complete details such as manufacturer, year model, and description.</p>
+                    </div>
+                    <div class="bg-[#F3F4F6] p-6 flex flex-col items-center text-center rounded-xl gap-3 transition duration-300 hover:scale-105 hover:shadow-lg">
+                        <i class="fa-solid fa-pen-to-square text-5xl text-gray-700"></i>
+                        <h3 class="text-lg font-semibold capitalize tracking-wide">Update Equipment Information</h3>
+                        <p class="text-sm text-gray-600">Modify equipment records including status, branch, department, and specifications.</p>
+                    </div>
+                    <div class="bg-[#F3F4F6] p-6 flex flex-col items-center text-center rounded-xl gap-3 transition duration-300 hover:scale-105 hover:shadow-lg">
+                        <i class="fa-solid fa-screwdriver-wrench text-5xl text-gray-700"></i>
+                        <h3 class="text-lg font-semibold capitalize tracking-wide">Equipment Status Monitoring</h3>
+                        <p class="text-sm text-gray-600">Track equipment condition with statuses such as Working, On-Repair, or Retired.</p>
+                    </div>
+                    <div class="bg-[#F3F4F6] p-6 flex flex-col items-center text-center rounded-xl gap-3 transition duration-300 hover:scale-105 hover:shadow-lg">
+                        <i class="fa-solid fa-trash text-5xl text-gray-700"></i>
+                        <h3 class="text-lg font-semibold capitalize tracking-wide">Secure Delete Function</h3>
+                        <p class="text-sm text-gray-600">Safely remove obsolete or invalid equipment records from the system.</p>
+                    </div>
+                    <div class="bg-[#F3F4F6] p-6 flex flex-col items-center text-center rounded-xl gap-3 transition duration-300 hover:scale-105 hover:shadow-lg">
+                        <i class="fa-solid fa-shield-halved text-5xl text-gray-700"></i>
+                        <h3 class="text-lg font-semibold capitalize tracking-wide">Validation & Data Integrity</h3>
+                        <p class="text-sm text-gray-600">Ensures required fields, unique asset and serial numbers, and valid year formats.</p>
+                    </div>
+                    <div class="bg-[#F3F4F6] p-6 flex flex-col items-center text-center rounded-xl gap-3 transition duration-300 hover:scale-105 hover:shadow-lg">
+                        <i class="fa-solid fa-clipboard-list text-5xl text-gray-700"></i>
+                        <h3 class="text-lg font-semibold capitalize tracking-wide">Logs & Audit Trail</h3>
+                        <p class="text-sm text-gray-600">Automatically records update and delete actions for accountability and tracking.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="systemdemo" class="w-full">
+            <div class="max-w-7xl mx-auto px-5 py-10">
+                <div class="flex items-center flex-col gap-16">
+                    <h1 class="text-5xl font-bold text-[#004ea8] capitalize tracking-wide">system demonstration</h1>
+                    <div data-aos="fade-right" data-aos-duration="1000" class="flex items-center justify-between w-full">
+                        <div class="">
+                            <img src="images/login.png" alt="Login Page" width="500" class="rounded-xl transform transform-transition duration-300 hover:scale-105">
+                            <h3 class="font-bold tracking-wide mt-2 text-center">Login Page</h3>
+                        </div>
+                        <p class="text-lg font-semibold tracking-wide">Users must authenticate to access the system securely.</p>
+                    </div>
+                    <div data-aos="fade-left" data-aos-duration="1000" class="flex items-center justify-between w-full">
+                        <p class="text-lg font-semibold tracking-wide">View, search, and manage all registered equipment in one centralized dashboard with essential details displayed.</p>
+                        <div class="">
+                            <img src="images/accounts.png" alt="Accounts Management" width="500" class="rounded-xl transform transform-transition duration-300 hover:scale-105">
+                            <h3 class="font-bold tracking-wide mt-2 text-center">Equipments Management Page</h3>
+                        </div>
+                    </div>
+                    <div data-aos="fade-right" data-aos-duration="1000" class="flex items-center justify-between w-full">
+                        <div class="">
+                            <img src="images/add.png" alt="Create Account" width="500" class="rounded-xl transform transform-transition duration-300 hover:scale-105">
+                            <h3 class="font-bold tracking-wide mt-2 text-center">Add New Page</h3>
+                        </div>
+                        <p class="text-lg font-semibold tracking-wide">Administrators can register new equipment by entering complete and accurate asset information into the system.</p>
+                    </div>
+                    <div data-aos="fade-left" data-aos-duration="1000" class="flex items-center justify-between w-full">
+                        <p class="text-lg font-semibold tracking-wide">Existing equipment details can be updated, including type, location, and current operational status.</p>
+                        <div class="">
+                            <img src="images/update.png" alt="Update" width="500" class="rounded-xl transform transform-transition duration-300 hover:scale-105">
+                            <h3 class="font-bold tracking-wide mt-2 text-center">Update Equipment Page</h3>
+                        </div>
+                    </div>
+                    <div data-aos="fade-right" data-aos-duration="1000" class="flex items-center justify-between w-full">
+                        <div class="">
+                            <img src="images/status.png" alt="Create Account" width="500" class="rounded-xl transform transform-transition duration-300 hover:scale-105">
+                            <h3 class="font-bold tracking-wide mt-2 text-center">Equipment Status Management</h3>
+                        </div>
+                        <p class="text-lg font-semibold tracking-wide">Allows administrators to monitor and update equipment status such as Working, On-Repair, or Retired.</p>
+                    </div>
+                    <div data-aos="fade-left" data-aos-duration="1000" class="flex items-center justify-between w-full">
+                        <p class="text-lg font-semibold tracking-wide">Ensures that user sessions are properly terminated to maintain system security and prevent unauthorized access.</p>
+                        <div class="">
+                            <img src="images/logout.png" alt="Logout" width="500" class="rounded-xl transform transform-transition duration-300 hover:scale-105">
+                            <h3 class="font-bold tracking-wide mt-2 text-center">Logout</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="bg-[#004ea8] shadow-lg">
+        <div class="max-w-7xl mx-auto px-5 py-2">
+            <div class="flex items-center justify-between py-6 px-10">
+            <div class="flex items-center">
+                <img width="90px" class="mr-3" src="https://www.arellano.edu.ph/sites/default/files/inline-images/new-au-logo.png" alt="Arellano University">
+                <h1 class="text-2xl text-white font-semibold tracking-wide">Equipment Management System</h1>
+            </div>
+            <div class="flex items-center gap-5">
+                <a href="https://www.facebook.com/jadrienwebdev" target="_blank"><i class="fa-brands fa-facebook text-4xl text-white transform transition duration-300 hover:scale-110"></i></a>
+                <a href="https://github.com/jadriendev" target="_blank"><i class="fa-brands fa-github text-4xl text-white transform transition duration-300 hover:scale-110"></i></a>
+                <a href="https://www.linkedin.com/in/jadrien-roi-aguilar-42b993362/" target="_blank"><i class="fa-brands fa-linkedin text-4xl text-white transform transition duration-300 hover:scale-110"></i></a>
+            </div>
+        </div>
+        <hr class="border-gray-300">
+        <div class="flex flex-col items-center justify-center py-4 text-gray-400">
+            <div class="flex items-center gap-2">
+                <span class="text-md tracking-wide text-gray-200">© 2026 • Jadrien Roi Aguilar |</span>
+                <span class="text-sm tracking-wide text-gray-200">BSIT-2A</span>
+            </div>
+            <div class="text-sm text-gray-200 tracking-wide mt-1">
+                ITC127 Advance Database System
+            </div>
+        </div>
+        </div>
+    </footer>
+</body>
+<script>
+  AOS.init({
+    once: true,
+    easing: 'ease-out-cubic',
+    offset: 120
+  });
+</script>
+</html>

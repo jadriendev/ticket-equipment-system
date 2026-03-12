@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="font.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="shortcut icon" href="https://www.arellano.edu.ph/sites/default/files/inline-images/new-au-logo.png" type="image/x-icon">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <title>Technical Management System</title>
+</head>
+<body class="bg-[#F3F4F6]">
+    <nav class="bg-[#004ea8] shadow-lg fixed top-0 w-full z-50">
+        <div class="max-w-7xl mx-auto py-2 px-5 flex items-center justify-between">
+            <div class="flex items-center gap-2">
+                <img src="https://www.arellano.edu.ph/sites/default/files/inline-images/new-au-logo.png" alt="Arellano University" width="70">
+                <h1 class="text-2xl text-white font-semibold tracking-wide">Technical Management System</h1>
+            </div>
+            <ul class="hidden  md:flex items-center gap-4">
+                <li class="capitalize font-semibold text-xl text-white transition transform-transition duration-300 hover:text-[#FBBF24]"><a href="#home">home</a></li>
+                <li class="capitalize font-semibold text-xl text-white transition transform-transition duration-300 hover:text-[#FBBF24]"><a href="#overview">overview</a></li>
+                <li class="capitalize font-semibold text-xl text-white transition transform-transition duration-300 hover:text-[#FBBF24]"><a href="#features">features</a></li>
+                <li class="capitalize font-semibold text-xl text-white transition transform-transition duration-300 hover:text-[#FBBF24]"><a href="#systemdemo">system demo</a></li>
+            </ul>
+            <a class="hidden md:inline-block bg-[#FBBF24] text-white py-2 px-8 rounded-xl transition duration-300 hover:bg-[#D19F1F]" href="login.php">Login</a>
+        </div>
+    </nav>
+    <main class="py-10 mt-[60px]">
+        <section id="overview" class="flex items-center justify-center flex-col gap-5 p-7">
+            <h1 class="text-5xl font-bold text-[#004ea8] capitalize tracking-wide text-center">technical management system</h1>
+            <p class="font-semibold tracking-wide text-[#111827] text-center">A centralized platform designed to manage user accounts securely and efficiently.</p>
+            <iframe class="rounded-xl mt-2 aspect-video" width="790" height="515" src="https://www.youtube.com/embed/wLhZlOZKAhU?si=_4z8m4lPiNgyO4st" title="Technical Management System" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </section>
+        <section id="features" class="w-full bg-[#004ea8]">
+            <div class="max-w-7xl mx-auto px-5 py-10">
+                <h1 class="text-5xl font-bold text-white capitalize tracking-wide text-center">system features</h1>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-10">
+                    <div class="bg-[#F3F4F6] p-5 max-w-sm flex items-center justify-center flex-col rounded-xl gap-2 transform transition duration-300 hover:scale-105">
+                        <i class="fa-solid fa-user text-5xl"></i>
+                        <h3 class="text-2xl capitalize font-semibold tracking-wide">user account management</h3>
+                        <p class="capitalize text-center">Create, update, and delete system users with ease.</p>
+                    </div>
+                    <div class="bg-[#F3F4F6] p-5 max-w-sm flex items-center justify-center flex-col rounded-xl gap-2 transform transition duration-300 hover:scale-105">
+                        <i class="fa-solid fa-user-shield text-5xl"></i>
+                        <h3 class="text-2xl capitalize font-semibold tracking-wide">role based access</h3>
+                        <p class="capitalize text-center">Supports different account types and permission levels.</p>
+                    </div>
+                    <div class="bg-[#F3F4F6] p-5 max-w-sm flex items-center justify-center flex-col rounded-xl gap-2 transform transition duration-300 hover:scale-105">
+                        <i class="fa-solid fa-magnifying-glass text-5xl"></i>
+                        <h3 class="text-2xl capitalize font-semibold tracking-wide">fast search functionality</h3>
+                        <p class="capitalize text-center">Quickly locate accounts using dynamic search.</p>
+                    </div>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8">
+                    <div class="bg-[#F3F4F6] p-5 max-w-sm flex items-center justify-center flex-col rounded-xl gap-2 transform transition duration-300 hover:scale-105">
+                        <i class="fa-solid fa-lock text-5xl"></i>
+                        <h3 class="text-2xl capitalize font-semibold tracking-wide">secure session handling</h3>
+                        <p class="capitalize text-center">Protects system access using PHP session management.</p>
+                    </div>
+                    <div class="bg-[#F3F4F6] p-5 max-w-sm flex items-center justify-center flex-col rounded-xl gap-2 transform transition duration-300 hover:scale-105">
+                        <i class="fa-solid fa-clock-rotate-left text-5xl"></i>
+                        <h3 class="text-2xl capitalize font-semibold tracking-wide">audit & tracking</h3>
+                        <p class="capitalize text-center">Displays account creator and date created for accountability.</p>
+                    </div>
+                    <div class="bg-[#F3F4F6] p-5 max-w-sm flex items-center justify-center flex-col rounded-xl gap-2 transform transition duration-300 hover:scale-105">
+                        <i class="fa-solid fa-layer-group text-5xl"></i>
+                        <h3 class="text-2xl capitalize font-semibold tracking-wide">clean & responsive UI</h3>
+                        <p class="capitalize text-center">Create, update, and delete system users with ease.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="systemdemo" class="w-full">
+            <div class="max-w-7xl mx-auto px-5 py-10">
+                <div class="flex items-center flex-col gap-16">
+                    <h1 class="text-5xl font-bold text-[#004ea8] capitalize tracking-wide">system demonstration</h1>
+                    <div data-aos="fade-up" data-aos-duration="1000" class="flex items-center justify-between w-full">
+                        <div class="">
+                            <img src="images/login.png" alt="Login Page" width="500" class="rounded-xl transform transform-transition duration-300 hover:scale-105">
+                            <h3 class="font-bold tracking-wide mt-2 text-center">Login Page</h3>
+                        </div>
+                        <p class="text-lg font-semibold tracking-wide">Users must authenticate to access the system securely.</p>
+                    </div>
+                    <div data-aos="fade-up" data-aos-duration="1000" class="flex items-center justify-between w-full">
+                        <p class="text-lg font-semibold tracking-wide">View, search, and manage all registered users in one centralized dashboard.</p>
+                        <div class="">
+                            <img src="images/accounts.png" alt="Accounts Management" width="500" class="rounded-xl transform transform-transition duration-300 hover:scale-105">
+                            <h3 class="font-bold tracking-wide mt-2 text-center">Accounts Management Page</h3>
+                        </div>
+                    </div>
+                    <div data-aos="fade-up" data-aos-duration="1000" class="flex items-center justify-between w-full">
+                        <div class="">
+                            <img src="images/create.png" alt="Create Account" width="500" class="rounded-xl transform transform-transition duration-300 hover:scale-105">
+                            <h3 class="font-bold tracking-wide mt-2 text-center">Create Account Page</h3>
+                        </div>
+                        <p class="text-lg font-semibold tracking-wide">Administrators can easily create new accounts or modify existing user details.</p>
+                    </div>
+                    <div data-aos="fade-up" data-aos-duration="1000" class="flex items-center justify-between w-full">
+                        <p class="text-lg font-semibold tracking-wide">Ensures that user sessions are properly terminated to maintain system security.</p>
+                        <div class="">
+                            <img src="images/accountswitharrow.jpg" alt="Logout" width="500" class="rounded-xl transform transform-transition duration-300 hover:scale-105">
+                            <h3 class="font-bold tracking-wide mt-2 text-center">Logout</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="bg-[#004ea8] shadow-lg">
+        <div class="max-w-7xl mx-auto px-5 py-2">
+            <div class="flex items-center justify-between py-6 px-10">
+            <div class="flex items-center">
+                <img width="90px" class="mr-3" src="https://www.arellano.edu.ph/sites/default/files/inline-images/new-au-logo.png" alt="Arellano University">
+                <h1 class="text-2xl text-white font-semibold tracking-wide">Technical Management System</h1>
+            </div>
+            <div class="flex items-center gap-5">
+                <a href="https://www.facebook.com/jadrienwebdev" target="_blank"><i class="fa-brands fa-facebook text-4xl text-white transform transition duration-300 hover:scale-110"></i></a>
+                <a href="https://github.com/jadriendev" target="_blank"><i class="fa-brands fa-github text-4xl text-white transform transition duration-300 hover:scale-110"></i></a>
+                <a href="https://www.linkedin.com/in/jadrien-roi-aguilar-42b993362/" target="_blank"><i class="fa-brands fa-linkedin text-4xl text-white transform transition duration-300 hover:scale-110"></i></a>
+            </div>
+        </div>
+        <hr class="border-gray-300">
+        <div class="flex flex-col items-center justify-center py-4 text-gray-400">
+            <div class="flex items-center gap-2">
+                <span class="text-md tracking-wide text-gray-200">© 2026 • Jadrien Roi Aguilar |</span>
+                <span class="text-sm tracking-wide text-gray-200">BSIT-2A</span>
+            </div>
+            <div class="text-sm text-gray-200 tracking-wide mt-1">
+                ITC127 Advance Database System
+            </div>
+        </div>
+        </div>
+    </footer>
+</body>
+<script>
+  AOS.init({
+    once: true,
+    easing: 'ease-out-cubic',
+    offset: 120
+  });
+</script>
+</html>

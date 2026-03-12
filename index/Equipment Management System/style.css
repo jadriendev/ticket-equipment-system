@@ -1,0 +1,19 @@
+.jb-justify-between {
+    justify-content: space-between;
+}
+
+.jb-flex {
+    display: flex;
+}
+
+.jb-items-center {
+    align-items: center;
+}
+
+jb-justify-center {
+    justify-content: center;
+}
+
+.max-w-jb {
+    max-width: 30%;
+}
